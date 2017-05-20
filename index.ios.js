@@ -18,6 +18,7 @@ import SocialAuth from 'react-native-social-auth';
 import OneSignal from 'react-native-onesignal'; // Import package from node modules
 import { Navigation } from 'react-native-navigation';
 
+console.debug = console.log;
 
 class Madina extends Component {
   state ={

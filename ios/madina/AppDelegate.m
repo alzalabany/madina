@@ -44,7 +44,7 @@
   [[FBSDKApplicationDelegate sharedInstance] application:application
                            didFinishLaunchingWithOptions:launchOptions];
   self.oneSignal = [[RCTOneSignal alloc] initWithLaunchOptions:launchOptions
-                                                         appId:@"YOUR_ONESIGNAL_APP_ID"];
+                                                         appId:@"62bd74e1-d1c5-4657-bf5a-6c885c89f30b"];
   return YES;
 }
 
